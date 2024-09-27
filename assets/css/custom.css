@@ -1,0 +1,18 @@
+/*
+Custom Css
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Productos-Destacados-hovers .card {
+    transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+#Productos-Destacados-hovers .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
